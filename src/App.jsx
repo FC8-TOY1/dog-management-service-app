@@ -1,12 +1,12 @@
-import { Routes, Route } from "react-router-dom";
-import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
-import Home from "./pages/Home";
-import UserAdd from "./pages/UserAdd";
-import UserProfile from "./pages/UserProfile";
-import WorkspaceApplication from "./pages/WorkspaceApplication";
-import Gallery from "./pages/Gallery";
-import "./App.css";
+import { Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
+import Home from './pages/Home';
+import UserAdd from './pages/UserAdd';
+import UserProfile from './pages/UserProfile';
+import WorkspaceApplication from './pages/WorkspaceApplication';
+import Gallery from './pages/Gallery';
+import './App.css';
 
 const App = () => {
   return (
@@ -17,10 +17,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/useradd" element={<UserAdd />} />
         <Route path="/userprofile" element={<UserProfile />} />
-        <Route
-          path="/workspaceapplication"
-          element={<WorkspaceApplication />}
-        />
+        <Route path="/workspaceapplication" element={<WorkspaceApplication />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </>
